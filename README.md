@@ -1,3 +1,3 @@
 # HydroSquad
 
-Project for Hackathon Spaca App Challengue NASA
+Project for Hackathon Space App Challengue NASA
