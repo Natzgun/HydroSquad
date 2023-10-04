@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ciclo Del Agua
+* source:	https://sketchfab.com/3d-models/ciclo-del-agua-585a3c7a3dfe4048afa49a3abbe5bbfa
+* author:	alexvladimircm (https://sketchfab.com/alexvladimircm)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ciclo Del Agua" (https://sketchfab.com/3d-models/ciclo-del-agua-585a3c7a3dfe4048afa49a3abbe5bbfa) by alexvladimircm (https://sketchfab.com/alexvladimircm) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

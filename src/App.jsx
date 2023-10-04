@@ -1,13 +1,17 @@
-import EarthCanvas from "./components/Earth/EarthCanvas"
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import Cycle from "./pages/Cycle";
+import NotFoundPage from "./pages/NotFoundPage"
 
 function App() {
   return (
-    <div className="bg-slate-950">
-      <EarthCanvas />
-      <div className="h-40 bg-gray-100">
-        Hello chupapi
-      </div>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/cycle-water" element={<Cycle />} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Routes>
+    </>
   )
 }
 
