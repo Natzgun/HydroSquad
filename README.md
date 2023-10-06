@@ -2,8 +2,6 @@
 
 Project for Hackathon Space App Challengue NASA
 
-¡Claro! Aquí tienes un ejemplo de un archivo README.md que puedes usar para documentar tu proyecto React llamado "HydroSquad" para la NASA Space App Challenge. Este archivo proporciona instrucciones para configurar y ejecutar el proyecto.
-
 # HydroSquad - NASA Space App Challenge
 
 Este es el proyecto HydroSquad para la NASA Space App Challenge. HydroSquad es una aplicación web construida con React para abordar desafíos relacionados con el agua y su importancia.
