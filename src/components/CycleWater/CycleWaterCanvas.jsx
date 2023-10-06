@@ -7,7 +7,10 @@ const CycleWaterCanvas = () => {
     <div className="h-screen w-full">
       <Canvas>
         <Suspense fallback={null}>
-          <Cyclewater />
+          <group position={[0, -1.5, 0]}>
+
+            <Cyclewater />
+          </group>
         </Suspense>
       </Canvas>
     </div>

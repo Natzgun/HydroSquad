@@ -8,7 +8,7 @@ Source: https://sketchfab.com/3d-models/ciclo-del-agua-585a3c7a3dfe4048afa49a3ab
 Title: Ciclo Del Agua
 */
 
-import React, { useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { OrbitControls, Stars } from "@react-three/drei"
 
@@ -16,7 +16,14 @@ import { OrbitControls, Stars } from "@react-three/drei"
 export default function Model(props) {
   const group = useRef()
   const { nodes, materials, animations } = useGLTF('/cyclewater-transformed.glb')
-  const { actions } = useAnimations(animations, group)
+  const { actions, names } = useAnimations(animations, group)
+  // Con esto podemos obtener los modos de animacion
+  console.log(names);
+
+  useEffect(() => {
+    actions[names[1]].reset().fadeIn(0.5).play();
+  }, [])
+
   return (
     <>
       <ambientLight intensity={2} />
