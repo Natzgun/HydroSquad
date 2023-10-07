@@ -7,10 +7,14 @@ function InteractivePoint({ position, to }) {
   const navigate = useNavigate(); // Usar useNavigate en lugar de useHistory
   const { camera } = useThree();
 
+  const alertRef = useRef(); // Referencia para la alerta de círculo
+
   // Rotar el punto para hacerlo más visible
   useFrame(() => {
     meshRef.current.rotation.x += 0.005;
     meshRef.current.rotation.y += 0.005;
+    alertRef.current.rotation.x += 0.055;
+    alertRef.current.rotation.y += 0.05;
   });
 
   const handleClick = () => {
@@ -32,14 +36,26 @@ function InteractivePoint({ position, to }) {
   };
 
   return (
-    <mesh
-      ref={meshRef}
-      position={position}
-      onClick={handleClick}
-    >
-      <sphereGeometry args={[0.1, 32, 32]} />
-      <meshBasicMaterial color="blue" />
-    </mesh>
+    <group>
+
+      <mesh
+        ref={meshRef}
+        position={position}
+        onClick={handleClick}
+      >
+        <sphereGeometry args={[0.09, 16, 16]} />
+        <meshBasicMaterial color="#0174DF" />
+      </mesh>
+      {/* Alerta de círculo */}
+      <mesh
+        ref={alertRef}
+        position={position}
+        onClick={handleClick}
+      >
+        <sphereGeometry args={[0.16, 16, 8]} />
+        <meshBasicMaterial color="red" transparent opacity={0.5} />
+      </mesh>
+    </group>
   );
 }
 
