@@ -8,14 +8,18 @@ import Slide3 from '../slides/Slide3';
 
 const Evaporacion = () => {
   const images = [
-    "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-    "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
+    "https://cdn.leonardo.ai/users/6eeee142-b1f7-458d-b8e1-0ef87491f09a/generations/b89009fa-7a59-4f1a-b982-d321b4c80bb0/Leonardo_Diffusion_Cycle_of_water_evaporation_with_oceanic_and_1.jpg",
+    // "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+    // "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
+    "https://cdn.leonardo.ai/users/6eeee142-b1f7-458d-b8e1-0ef87491f09a/generations/ccbf7ea6-da60-4a11-901f-1bba94978796/Leonardo_Diffusion_Cycle_of_water_evaporation_with_oceanic_and_0.jpg",
     "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+    "https://cdn.leonardo.ai/users/6eeee142-b1f7-458d-b8e1-0ef87491f09a/generations/ee9ddb4e-b360-48c2-9466-07771589044a/Leonardo_Diffusion_Cycle_of_water_evaporation_with_oceanic_and_0.jpg",
+    "https://cdn.leonardo.ai/users/6eeee142-b1f7-458d-b8e1-0ef87491f09a/generations/ee9ddb4e-b360-48c2-9466-07771589044a/Leonardo_Diffusion_Cycle_of_water_evaporation_with_oceanic_and_1.jpg",
   ];
 
   const informacion1 = {
     contenido2: 'También entenderás la gran importancia que tiene este ciclo en nuestra vida diaria. Empecemos con el recorrido:D',
-    contenido3: 'Hola! Soy …… Bienvenido a ……… hoy te explicare todo lo que necesitas saber acerca del ciclo del agua. ¿A que no es un tema divertido e interesante?',
+    contenido3: 'Hola! Soy Medusian Bienvenido a HYDROSQUAD hoy te explicare todo lo que necesitas saber acerca del ciclo del agua. ¿A que no es un tema divertido e interesante?',
     contenido4: 'MAscota',
     titulo: 'EVAPORACIÓN',
     imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
@@ -52,32 +56,32 @@ const Evaporacion = () => {
     <div>
       <Zoom autoplay={false} scale={1.4}>
         <div className="each-slide-effect">
-          <div className='sm:h-screen' style={{ 'backgroundImage': `url(${images[0]})` }}>
+          <div className='sm:h-screen bg-no-repeat bg-cover bg-center' style={{ 'backgroundImage': `url(${images[0]})` }}>
             <p className='text-5xl p-10 text-white absolute'>1</p>
             <Slide1 data={informacion1} />
           </div>
         </div>
 
         <div className="each-slide-effect">
-          <div className='h-screen' style={{ 'backgroundImage': `url(${images[0]})` }}>
+          <div className='h-screen bg-cover bg-center' style={{ 'backgroundImage': `url(${images[4]})` }}>
             <Slide2 data={informacion2} />
           </div>
         </div>
 
         <div className="each-slide-effect">
-          <div className='h-screen' style={{ 'backgroundImage': `url(${images[0]})` }}>
+          <div className='h-screen bg-cover bg-center' style={{ 'backgroundImage': `url(${images[3]})` }}>
             <Slide3 data={informacion3} />
           </div>
         </div>
 
         <div className="each-slide-effect ">
-          <div className='h-screen ' style={{ 'backgroundImage': `url(${images[1]})` }}>
+          <div className='h-screen bg-cover bg-center ' style={{ 'backgroundImage': `url(${images[1]})` }}>
             <Slide4 data={informacion4} />
           </div>
         </div>
 
         <div className="each-slide-effect">
-          <div className='h-screen' style={{ 'backgroundImage': `url(${images[2]})` }}>
+          <div className='h-screen bg-cover bg-center' style={{ 'backgroundImage': `url(${images[2]})` }}>
             <Slide5 data={informacion5} />
           </div>
         </div>

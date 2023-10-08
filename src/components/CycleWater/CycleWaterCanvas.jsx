@@ -5,9 +5,13 @@ import { motion } from "framer-motion"
 import InteractivePoint from "../InteractivePoints/InteractivePoint"
 import { NavLink } from "react-router-dom"
 
+import fondoMarino from "../../assets/images/fondo-marino.jpg"
+
 const CycleWaterCanvas = () => {
   return (
-    <div className="h-screen w-full bg-slate-100">
+    <div className="h-screen w-full bg-slate-100 bg-cover bg-center" style={{
+      backgroundImage: `url(${fondoMarino})`,
+    }}>
       <div className="absolute z-10 p-28 top-0  right-0">
         <NavLink to="/evaporation">
           <motion.button 
