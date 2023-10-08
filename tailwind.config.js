@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      voces: ["Voces", "sans-serif"],
+      hindi: ["Hind Siliguri", "sans-serif"]
+    },
   },
   plugins: [
   ],

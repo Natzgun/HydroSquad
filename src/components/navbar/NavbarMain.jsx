@@ -13,7 +13,7 @@ const NavbarMain = () => {
   }
 
   return (
-    <nav className="backdrop-blur-sm flex w-full justify-between items-center h-14 px-4 absolute z-20 text-white bg-black/30">
+    <nav className=" backdrop-blur-sm flex w-full justify-between items-center h-14 px-4 absolute z-20 text-white bg-black/30">
       <div>
         <NavLink to="/">
           <h1 className="font-bold text-xl p-3">HydroSquad</h1>
@@ -33,7 +33,7 @@ const NavbarMain = () => {
           <NavLink to="/cycle-water">Ciclo</NavLink>
         </li>
         <li className="hover:text-blue-400 hover:underline duration-200">
-          <NavLink to="/cycle-water">Ciclo</NavLink>
+          <NavLink to="/acerca-de-hydrosquad">Acerca de</NavLink>
         </li>
       </ul>
       <div className="hidden md:flex gap-10">
