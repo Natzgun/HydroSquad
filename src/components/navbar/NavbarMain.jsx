@@ -15,7 +15,9 @@ const NavbarMain = () => {
   return (
     <nav className="backdrop-blur-sm flex w-full justify-between items-center h-14 px-4 absolute z-20 text-white bg-black/30">
       <div>
-        <h1 className="font-bold text-xl p-3">HydroSquad</h1>
+        <NavLink to="/">
+          <h1 className="font-bold text-xl p-3">HydroSquad</h1>
+        </NavLink>
       </div>
       <ul className="hidden md:flex justify-center items-center gap-10">
         <li className="hover:text-blue-400 hover:underline duration-200">
@@ -35,8 +37,14 @@ const NavbarMain = () => {
         </li>
       </ul>
       <div className="hidden md:flex gap-10">
-        <BsFillCloudSunFill className="hover:text-blue-400 duration-200 cursor-pointer" size={20} />
-        <BsFillDropletFill className="hover:text-blue-400 duration-200 cursor-pointer" size={20} />
+        <NavLink to="cycle-water">
+          <BsFillCloudSunFill className="hover:text-blue-400 duration-200 cursor-pointer" size={20} />
+
+        </NavLink>
+        <NavLink to="good-ending">
+          <BsFillDropletFill className="hover:text-blue-400 duration-200 cursor-pointer" size={20} />
+
+        </NavLink>
       </div>
       <div onClick={handleNav} className="md:hidden cursor-pointer">
         {nav ? (<AiOutlineClose color="white" size={25} />) : (<AiOutlineMenu size={25} />)

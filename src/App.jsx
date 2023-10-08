@@ -12,6 +12,11 @@ import HomePage from "./pages/HomePage";
 import Cycle from "./pages/Cycle";
 import NotFoundPage from "./pages/NotFoundPage"
 import Evaporacion from "./pages/stepsWater/Evaporacion";
+import Precipitacion from "./pages/stepsWater/Precipitacion";
+import Condensacion from "./pages/stepsWater/Condensacion";
+import Filtracion from "./pages/stepsWater/Filtracion";
+import Transpiracion from "./pages/stepsWater/Transpiracion";
+import GoodEnding from "./pages/stepsWater/GoodEnding";
 
 function App() {
   return (
@@ -21,6 +26,11 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/cycle-water" element={<Cycle />} />
         <Route path="/evaporation" element={<Evaporacion />} />
+        <Route path="/condensacion" element={<Condensacion />} />
+        <Route path="/precipitacion" element={<Precipitacion />} />
+        <Route path="/filtracion" element={<Filtracion />} />
+        <Route path="/transpiracion" element={<Transpiracion />} />
+        <Route path="/good-ending" element={<GoodEnding />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </>
