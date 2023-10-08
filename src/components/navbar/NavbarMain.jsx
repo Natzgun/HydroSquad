@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom"
 import { BsFillCloudSunFill, BsFillDropletFill } from "react-icons/bs"
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"
 import { useState } from "react"
-
+import NavBarWordAnime from "./NavBarWordAnime"
 const NavbarMain = () => {
   const [nav, setNav] = useState(false);
   const [logo, setLogo] = useState(false);
@@ -11,7 +11,6 @@ const NavbarMain = () => {
     setNav(!nav);
     setLogo(!logo);
   }
-
   return (
     <nav className=" backdrop-blur-sm flex w-full justify-between items-center h-14 px-4 absolute z-20 text-white bg-black/30">
       <div>
@@ -21,19 +20,30 @@ const NavbarMain = () => {
       </div>
       <ul className="hidden md:flex justify-center items-center gap-10">
         <li className="hover:text-blue-400 hover:underline duration-200">
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/">
+          <NavBarWordAnime palabra='Home'/>
+            </NavLink>
         </li>
         <li className="hover:text-blue-400 hover:underline duration-200">
-          <NavLink to="/cycle-water">Ciclo</NavLink>
+          <NavLink to="/cycle-water">
+          <NavBarWordAnime palabra='Ciclo'/>
+            
+            </NavLink>
         </li>
         <li className="hover:text-blue-400 hover:underline duration-200">
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/">
+          <NavBarWordAnime palabra='Home'/>
+            </NavLink>
         </li>
         <li className="hover:text-blue-400 hover:underline duration-200">
-          <NavLink to="/cycle-water">Ciclo</NavLink>
+          <NavLink to="/cycle-water">
+          <NavBarWordAnime palabra='Ciclo'/>
+            </NavLink>
         </li>
         <li className="hover:text-blue-400 hover:underline duration-200">
-          <NavLink to="/acerca-de-hydrosquad">Acerca de</NavLink>
+          <NavLink to="/acerca-de-hydrosquad">
+          <NavBarWordAnime palabra='About'/>
+            </NavLink>
         </li>
       </ul>
       <div className="hidden md:flex gap-10">

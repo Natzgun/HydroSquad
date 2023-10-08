@@ -1,7 +1,7 @@
 import Cyclewater from "./Cyclewater"
 import { Canvas } from "@react-three/fiber"
 import { Suspense } from "react"
-
+import { motion } from "framer-motion"
 import InteractivePoint from "../InteractivePoints/InteractivePoint"
 import { NavLink } from "react-router-dom"
 
@@ -10,7 +10,12 @@ const CycleWaterCanvas = () => {
     <div className="h-screen w-full bg-slate-100">
       <div className="absolute z-10 p-28 top-0  right-0">
         <NavLink to="/evaporation">
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded mt-8" type="button">Iniciar recorrido del agua</button>
+          <motion.button 
+            whileHover={{ scale: 1.1, backgroundColor: '#3498db', color: '#000000' }}
+            whileTap={{ scale: 0.9 }}
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded mt-8" type="button">
+            Iniciar recorrido del agua
+          </motion.button>
         </NavLink>
       </div>
       <Canvas>
