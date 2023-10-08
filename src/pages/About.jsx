@@ -1,9 +1,15 @@
+import HydroTeam from "../assets/images/HydroTeam.png"
 
 const About = () => {
   return (
     <div className="h-screen">
       <div className="h-[75%]">
-        HydroSquad
+        <div className="flex flex-col items-center justify-center h-full px-6">
+          <h1 className="font-semibold text-5xl">
+            HydroSquad
+          </h1>
+          <img src={HydroTeam} className="sm:w-[40%]" alt="" />
+        </div>
       </div>
       <footer className="bg-blue-100/80 font-sans dark:bg-gray-900 h-[25%]">
         <div className="container px-6 py-12 mx-auto">
@@ -37,8 +43,8 @@ const About = () => {
           <hr className="my-6 border-gray-200 md:my-8 dark:border-gray-700 h-2" />
           <div className="sm:flex sm:items-center sm:justify-between">
             <div className="flex flex-1 gap-4 hover:cursor-pointer">
-              <img src="https://www.svgrepo.com/show/303139/google-play-badge-logo.svg" width={130} height={110} alt="" />
-              <img src="https://www.svgrepo.com/show/303128/download-on-the-app-store-apple-logo.svg" width={130} height={110} alt="" />
+              {/* <img src="https://www.svgrepo.com/show/303139/google-play-badge-logo.svg" width={130} height={110} alt="" />
+              <img src="https://www.svgrepo.com/show/303128/download-on-the-app-store-apple-logo.svg" width={130} height={110} alt="" /> */}
             </div>
             <div className="flex gap-4 hover:cursor-pointer">
               <img src="https://www.svgrepo.com/show/303114/facebook-3-logo.svg" width={30} height={30} alt="fb" />
