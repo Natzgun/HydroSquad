@@ -24,7 +24,7 @@ function MeduseMotion() {
           style={{display: 'flex', width: '50%', height: '50%' }}
           >
           <motion.img
-            src="./src/assets/images/medusas/1.png"
+            src="../../assets/images/medusas/1.png"
             alt="Imagen 1"
             style={{ width: '25%', height: '100%' }}
             animate={controls} 
