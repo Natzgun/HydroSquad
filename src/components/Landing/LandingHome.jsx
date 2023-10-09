@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import MeduseMotion from './MeduseMotion';
+import Medusa from "../../assets/images/medusas/1.png"
 const LandingHome = () => {
   return (
     <div className='absolute w-full h-full inset-x-0 top-0 flex flex-col items-center p-[20%] z-10'>
@@ -12,7 +13,7 @@ const LandingHome = () => {
             Comenzar
           </button>
         </NavLink>
-        <MeduseMotion />
+        {/* <MeduseMotion /> */}
       </div>
     </div>
   );
