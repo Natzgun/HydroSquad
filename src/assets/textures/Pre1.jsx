@@ -7,7 +7,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Pre1(props) {
-  const { nodes, materials } = useGLTF('src/assets/textures/pre1.gltf')
+  const { nodes, materials } = useGLTF('/pre1.gltf')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.cube.geometry} material={nodes.cube.material} />
