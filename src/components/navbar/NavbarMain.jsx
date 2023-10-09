@@ -21,7 +21,7 @@ const NavbarMain = () => {
       <ul className="hidden md:flex justify-center items-center gap-10">
         <li className="hover:text-blue-400 hover:underline duration-200">
           <NavLink to="/">
-          <NavBarWordAnime palabra='Home'/>
+          <NavBarWordAnime palabra='Inicio'/>
             </NavLink>
         </li>
         <li className="hover:text-blue-400 hover:underline duration-200">
@@ -32,7 +32,7 @@ const NavbarMain = () => {
         </li>
         <li className="hover:text-blue-400 hover:underline duration-200">
           <NavLink to="/">
-          <NavBarWordAnime palabra='Home'/>
+          <NavBarWordAnime palabra='Inicio'/>
             </NavLink>
         </li>
         <li className="hover:text-blue-400 hover:underline duration-200">
@@ -42,7 +42,7 @@ const NavbarMain = () => {
         </li>
         <li className="hover:text-blue-400 hover:underline duration-200">
           <NavLink to="/acerca-de-hydrosquad">
-          <NavBarWordAnime palabra='About'/>
+          <NavBarWordAnime palabra='Acerca de'/>
             </NavLink>
         </li>
       </ul>
