@@ -32,7 +32,7 @@ const Evaporacion = () => {
   }
   const informacion2 = {
     contenido1: 'El primer paso del ciclo del agua es la EVAPORACION. ¿Te suena ese nombre?',
-    contenido2: 'Imagen 3D',
+    contenido2: '',
     contenido3: 'Cuando pones a calentar el agua en la cocina y esta mientras se calienta empieza a expulsar VAPOR a este proceso le llamamos EVAPORACION.',
     contenido4: 'De seguro lo has visto muchas veces',
     contenido5: 'Mascota',
@@ -48,7 +48,7 @@ const Evaporacion = () => {
   }
   const informacion4 = {
     contenido1: 'Esto sucede porque el calor del sol convierte el agua de los océanos, ríos y lagos en vapor.',
-    contenido2: 'Imagen en 3D',
+    contenido2: '',
     titulo: 'EVAPORACIÓN',
     imagen: Medusa4
   }

@@ -9,8 +9,8 @@ function Slide4({ data }) {
   return (
 
     <div className='h-screen p-16 grid grid-cols-3 grid-rows-2 gap-6 break-words'>
-      <motion.div whileHover={{ scale: 1.1 }} className='bg-opacity-20 row-span-1 bg-blue-500 text-white text-center text-5xl py-4 rounded-lg'>
-        3d
+      <motion.div whileHover={{ scale: 1.1 }} className='bg-opacity-20 row-span-1 text-white text-center text-5xl py-4 rounded-lg'>
+        
       </motion.div>
       <motion.div whileHover={{ scale: 1.1 }} className=' row-span-2 text-white text-center text-5xl py-4 rounded-lg'>
         <img src={data.imagen} alt="" />
