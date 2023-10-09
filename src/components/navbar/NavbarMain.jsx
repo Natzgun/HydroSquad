@@ -30,7 +30,7 @@ const NavbarMain = () => {
             
             </NavLink>
         </li>
-        <li className="hover:text-blue-400 hover:underline duration-200">
+        {/* <li className="hover:text-blue-400 hover:underline duration-200">
           <NavLink to="/">
           <NavBarWordAnime palabra='Inicio'/>
             </NavLink>
@@ -39,7 +39,7 @@ const NavbarMain = () => {
           <NavLink to="/cycle-water">
           <NavBarWordAnime palabra='Ciclo'/>
             </NavLink>
-        </li>
+        </li> */}
         <li className="hover:text-blue-400 hover:underline duration-200">
           <NavLink to="/acerca-de-hydrosquad">
           <NavBarWordAnime palabra='Acerca de'/>

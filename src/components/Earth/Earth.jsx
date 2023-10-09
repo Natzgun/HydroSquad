@@ -22,7 +22,7 @@ const Earth = () => {
   return <>
     <ambientLight intensity={2.5} />
     {/* <pointLight color="#ffffff" position={[2, 0, 2]} intensity={15} /> */}
-    <Stars radius={300} depth={60} />
+    <Stars radius={600} depth={30} />
     <mesh ref={cloudsRef} scale={[2.5, 2.5, 2.5]}>
       <sphereGeometry args={[1.005, 32, 32]} />
       <meshPhongMaterial
