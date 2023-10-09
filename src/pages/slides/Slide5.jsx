@@ -1,5 +1,10 @@
 import { motion } from "framer-motion"
+import {Pre1} from "../../assets/textures/Pre1"
 
+import { Canvas } from '@react-three/fiber';
+import Camera from './Camera';
+import Lights from './Lights';
+import { OrbitControls } from '@react-three/drei';
 function Slide5({ data }) {
   return (
     <div class=" h-screen p-16 grid grid-cols-3 gap-4 break-words">
@@ -9,7 +14,13 @@ function Slide5({ data }) {
         </div>
       </motion.div>
       <motion.div whileHover={{ scale: 1.1 }} class="bg-opacity-50 col-span-1 bg-green-300 text-white text-center text-5xl py-4 rounded-lg">
-
+        <Canvas  style={{ display: 'block', width: '400px', height: '400px' }}  >
+          <Lights/>
+          <Camera/>
+          <OrbitControls target={[0,1,0]}/>
+          <Pre1/>
+      
+        </Canvas>
       </motion.div>
       <motion.div whileHover={{ scale: 1.1 }} class="bg-opacity-50 col-span-1 bg-red-300 text-white text-center text-3xl py-4 rounded-lg ">
           <h1 className="font-extrabold">{data.titulo}</h1>
