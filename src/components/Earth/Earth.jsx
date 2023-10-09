@@ -21,14 +21,15 @@ const Earth = () => {
   return <>
     <ambientLight intensity={2.5} />
     {/* <pointLight color="#ffffff" position={[2, 0, 2]} intensity={15} /> */}
+    <Stars radius={300} depth={60} />
     <mesh ref={cloudsRef} scale={[2.5, 2.5, 2.5]}>
-      <sphereGeometry args={[1.005, 32, 32]} />
+      {/* <sphereGeometry args={[2.005, 32, 32]} />
       <meshPhongMaterial
         opacity={0.4}
         depthWrite={true}
         transparent={true}
         side={DoubleSide}
-      />
+      /> */}
     </mesh>
 
     <mesh ref={earthRef} scale={[2.5, 2.5, 2.5]}>
