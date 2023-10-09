@@ -1,10 +1,11 @@
 import { NavLink } from "react-router-dom"
 import { motion } from "framer-motion"
 import TextJump from "./TextJump";
+import MeduseMotion from "./MeduseMotion";
 const LandingHome = () => {
 
   return (
-    <div className="absolute w-full h-full inset-x-0 top-0 flex flex-col items-center p-[15%] z-10">
+    <div className="absolute w-full h-full inset-x-0 top-0 flex flex-col items-center pt-40 z-10">
       <div
         className="flex flex-col items-center justify-center"
       >
@@ -17,6 +18,13 @@ const LandingHome = () => {
             Comenzar
           </motion.button>
         </NavLink>
+        
+
+        
+      </div>
+      <div className="w-full pt-5 ">
+        <MeduseMotion/>
+
       </div>
     </div>
   )
