@@ -1,5 +1,6 @@
 import React,{useState, useEffect} from 'react'
 import { motion, useAnimation } from 'framer-motion';
+import MedusaMoton from "../../assets/images/medusas/1.png"
 function MeduseMotion() {
  
     const controls = useAnimation();
@@ -24,7 +25,7 @@ function MeduseMotion() {
           style={{display: 'flex', width: '50%', height: '50%' }}
           >
           <motion.img
-            src="../../assets/images/medusas/1.png"
+            src={MedusaMoton}
             alt="Imagen 1"
             style={{ width: '25%', height: '100%' }}
             animate={controls} 
