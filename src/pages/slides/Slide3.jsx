@@ -23,7 +23,10 @@ function Slide3({data}) {
         </div>
     </motion.div>
     <motion.div whileHover={{ scale: 1.1 }} className='row-span-2 text-white text-center text-5xl py-4 rounded-lg'>
-      <img src={data.imagen} alt="" />
+
+        <div className="flex items-center justify-center h-full">
+         <img src={data.imagen} className="w-[50%]" alt="" /> 
+        </div>
     </motion.div>
     <motion.div whileHover={{ scale: 1.1 }} className='bg-opacity-60 bg-blue-400  row-span-1 text-white text-center text-3xl py-4 rounded-lg'>
     <div className="flex flex-col items-center justify-center h-full px-6">

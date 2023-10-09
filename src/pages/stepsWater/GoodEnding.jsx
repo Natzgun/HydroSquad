@@ -2,6 +2,7 @@ import { Zoom } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 
 import Slide4 from '../slides/Slide4';
+import Medusa1 from "../../assets/images/medusas/1.png"
 const GoodEnding = () => {
 
   const images = [
@@ -13,7 +14,7 @@ const GoodEnding = () => {
     contenido1: '¡QUE EMOCION! Hemos llegado al final del recorrido de este maravilloso ciclo',
     contenido2: 'Todo lo que vimos es muy importante para la vida de nuestra especie y de las demás criaturas de nuestro planeta ya que gracias al agua los cultivos crecen y hacen posible la vida de todos los seres vivos',
     titulo: 'EVAPORACIÓN',
-    imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
+    imagen: Medusa1
   }
   return (
 

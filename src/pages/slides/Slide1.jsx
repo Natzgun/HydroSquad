@@ -28,9 +28,7 @@ const Slide1 = ({ data }) => {
 
       <motion.div whileHover={{ scale: 1.1 }} className=' row-span-2 text-white text-center text-5xl py-4 rounded-lg '>
         <div className="flex items-center justify-center h-full">
-          <p className="font-normal font-hindi">
-            4{data.contenido4}
-          </p>
+         <img src={data.imagen} className="w-[50%]" alt="" /> 
         </div>
       </motion.div>
     </div>

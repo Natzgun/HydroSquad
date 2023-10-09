@@ -6,6 +6,15 @@ import Slide2 from '../slides/Slide2';
 import Slide5 from '../slides/Slide5';
 import Slide4 from '../slides/Slide4';
 import Slide3 from '../slides/Slide3';
+
+
+import Medusa1 from "../../assets/images/medusas/1.png"
+import Medusa2 from "../../assets/images/medusas/2.png"
+import Medusa3 from "../../assets/images/medusas/3.png"
+import Medusa4 from "../../assets/images/medusas/4.png"
+import Medusa5 from "../../assets/images/medusas/5.png"
+import Medusa6 from "../../assets/images/medusas/5.png"
+
 const Condensacion = () => {
   const images = [
     "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
@@ -17,7 +26,7 @@ const Condensacion = () => {
     contenido3: 'Puede que este nombre no te suene mucho, pero de seguro has visto muchas veces como ocurre este proceso. ',
     contenido4: 'Imagen',
     titulo: 'CONDENSACIÓN',
-    imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
+    imagen: Medusa1 
   }
   const informacion2 = {
     contenido1: '¿Alguna vez cuando viajabas en un automovil o bus a casa y llovia se formaban gotitas de agua en la ventana a pesar que estaba cerrada ?',
@@ -25,26 +34,26 @@ const Condensacion = () => {
     contenido3: 'Estas gotitas son un ejemplo claro de condensación. ',
 
     titulo: 'CONDENSACIÓN',
-    imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
+    imagen: Medusa6
   }
   const informacion3 = {
     contenido1: 'El vehiculo posee en su interior aire caliente y humedo',
     contenido2: 'Dicho aire se enfria, porque pierde el calor por la ventana fria',
     contenido3: 'Luego se convierte en gotitas de agua visibles en la ventana',
     titulo: 'CONDENSACIÓN',
-    imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
+    imagen: Medusa3 
   }
   const informacion4 = {
     contenido1: 'Al igual que sucede en los automóviles o buses, el vapor de agua sube hasta el cielo ',
     contenido2: 'Se enfría en las capas altas de la atmósfera, convirtiéndose en gotas de agua',
     titulo: 'CONDENSACIÓN',
-    imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
+    imagen: Medusa2 
   }
   const informacion5 = {
     contenido1: 'A todo ese proceso se le llama CONDENSACIÓN',
     contenido2: ' Un dato curioso de esto es que las nubes pueden contener millones de gotas de agua, pero son tan pequeñas que pueden flotar en el aire.',
     titulo: 'CONDENSACIÓN',
-    imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
+    imagen: Medusa5 
   }
 
   return (

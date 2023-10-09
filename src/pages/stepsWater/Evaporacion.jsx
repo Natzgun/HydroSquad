@@ -6,6 +6,12 @@ import Slide4 from '../slides/Slide4';
 import Slide5 from '../slides/Slide5';
 import Slide3 from '../slides/Slide3';
 
+import Medusa1 from "../../assets/images/medusas/1.png"
+import Medusa2 from "../../assets/images/medusas/2.png"
+import Medusa3 from "../../assets/images/medusas/3.png"
+import Medusa4 from "../../assets/images/medusas/4.png"
+import Medusa5 from "../../assets/images/medusas/5.png"
+
 const Evaporacion = () => {
   const images = [
     "https://cdn.leonardo.ai/users/6eeee142-b1f7-458d-b8e1-0ef87491f09a/generations/b89009fa-7a59-4f1a-b982-d321b4c80bb0/Leonardo_Diffusion_Cycle_of_water_evaporation_with_oceanic_and_1.jpg",
@@ -22,7 +28,7 @@ const Evaporacion = () => {
     contenido3: 'Hola! Soy Medusian Bienvenido a HYDROSQUAD hoy te explicare todo lo que necesitas saber acerca del ciclo del agua. ¿A que no es un tema divertido e interesante?',
     contenido4: 'MAscota',
     titulo: 'EVAPORACIÓN',
-    imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
+    imagen: Medusa1,
   }
   const informacion2 = {
     contenido1: 'El primer paso del ciclo del agua es la EVAPORACION. ¿Te suena ese nombre?',
@@ -31,26 +37,26 @@ const Evaporacion = () => {
     contenido4: 'De seguro lo has visto muchas veces',
     contenido5: 'Mascota',
     titulo: 'EVAPORACIÓN',
-    imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
+    imagen: Medusa2
   }
   const informacion3 = {
     contenido1: 'Nuestro planeta tierra esta conformado por mucha agua',
     contenido2: 'Alcanza casi el 70% porciento de la superficie',
     contenido3: 'Al igual que al calentar el agua en la estufa esta tambien se evapora',
     titulo: 'EVAPORACIÓN',
-    imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
+    imagen: Medusa3 
   }
   const informacion4 = {
     contenido1: 'Esto sucede porque el calor del sol convierte el agua de los océanos, ríos y lagos en vapor.',
     contenido2: 'Imagen en 3D',
     titulo: 'EVAPORACIÓN',
-    imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
+    imagen: Medusa4
   }
   const informacion5 = {
     contenido1: 'De las diferentes fuentes de agua de nuestro planeta',
     contenido2: '¿Sabías que el 86% del agua que cae en la Tierra proviene de los océanos?',
     titulo: 'EVAPORACIÓN',
-    imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
+    imagen: Medusa5 
   }
   return (
     <div>
