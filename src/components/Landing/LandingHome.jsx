@@ -1,33 +1,21 @@
-import { NavLink } from "react-router-dom"
-import { motion } from "framer-motion"
-import TextJump from "./TextJump";
-import MeduseMotion from "./MeduseMotion";
+import { NavLink } from 'react-router-dom';
+import MeduseMotion from './MeduseMotion';
 const LandingHome = () => {
-
   return (
-    <div className="absolute w-full h-full inset-x-0 top-0 flex flex-col items-center pt-40 z-10">
-      <div
-        className="flex flex-col items-center justify-center"
-      >
-        <TextJump/>
-        <NavLink to="/cycle-water">
-          <motion.button
-            whileHover={{ scale: 1.1, color: '#000000', backgroundColor: '#90ee90',fontWeight:700 }}
-          
-           className="bg-green-700 text-white font-bold py-4 px-8 rounded mt-8">
+    <div className='absolute w-full h-full inset-x-0 top-0 flex flex-col items-center p-[20%] z-10'>
+      <div className='flex flex-col items-center justify-center'>
+        <h1 className='text-white text-[80px] font-extrabold text-center'>
+          Todo comienza con Agua
+        </h1>
+        <NavLink to='/cycle-water'>
+          <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded mt-8'>
             Comenzar
-          </motion.button>
+          </button>
         </NavLink>
-        
-
-        
-      </div>
-      <div className="w-full pt-5 ">
-        <MeduseMotion/>
-
+        <MeduseMotion />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default LandingHome
+export default LandingHome;
