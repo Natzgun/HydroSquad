@@ -12,7 +12,6 @@ const LandingHome = () => {
             Comenzar
           </button>
         </NavLink>
-        <MeduseMotion />
       </div>
     </div>
   );
