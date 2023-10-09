@@ -13,6 +13,7 @@ const LandingHome = () => {
             Comenzar
           </button>
         </NavLink>
+        <img src={Medusa} className='w-[200px]' alt="" />
         {/* <MeduseMotion /> */}
       </div>
     </div>
