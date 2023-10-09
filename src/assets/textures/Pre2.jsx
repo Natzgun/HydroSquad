@@ -351,4 +351,5 @@ export function Pre2(props) {
   )
 }
 
-useGLTF.preload('src/assets/textures/pre2.gltf')
+// useGLTF.preload('src/assets/textures/pre2.gltf')
+useGLTF.preload('/pre2.gltf')
