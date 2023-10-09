@@ -6,6 +6,14 @@ import Slide2 from '../slides/Slide2';
 import Slide5 from '../slides/Slide5';
 import Slide4 from '../slides/Slide4';
 import Slide3 from '../slides/Slide3';
+
+import Medusa1 from "../../assets/images/medusas/1.png"
+import Medusa2 from "../../assets/images/medusas/2.png"
+import Medusa3 from "../../assets/images/medusas/3.png"
+import Medusa4 from "../../assets/images/medusas/4.png"
+import Medusa5 from "../../assets/images/medusas/5.png"
+import Medusa6 from "../../assets/images/medusas/5.png"
+
 const Filtracion = () => {
 
   const images = [
@@ -15,37 +23,37 @@ const Filtracion = () => {
   ];
   const informacion1 = {
     contenido2: 'El cuarto paso de este ciclo es el ALMACENAMIENTO o INFILTRACION',
-    contenido3: 'festo ocurre cuando luego de la PRECIPITACION el agua fluye por la superficie de la Tierra formando arroyos y ríos',
+    contenido3: 'Esto ocurre cuando luego de la PRECIPITACION el agua fluye por la superficie de la Tierra formando arroyos y ríos',
     titulo: 'INFILTRACIÒN',
-    imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
+    imagen: Medusa1
   }
   const informacion2 = {
     contenido1: 'Parte de ella se infiltra en el suelo y se almacena en acuíferos. ',
     contenido2: '',
     contenido3: 'La infiltración es crucial para la recarga de los suministros de agua subterránea utilizados para el abastecimiento de agua potable.',
     titulo: 'INFILTRACIÒN',
-    imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
+    imagen: Medusa2 
   }
   const informacion3 = {
     contenido1: '¿Sabias que algunas aguas subterráneas pueden tardar miles de años en llegar a la superficie? ',
     contenido2: 'De estos acuíferos hay muchos en el Perú ',
     contenido3: 'los cuales suministran agua a las ciudades y comunidades de nuestro país.',
     titulo: 'INFILTRACIÒN',
-    imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
+    imagen: Medusa4 
   }
   const informacion4 = {
     contenido1: 'Por ejemplo el acuífero de la cuenca del río Rímac, el cual abastece a la ciudad de Lima y su área metropolitana',
     contenido2: 'este es esencial para el suministro de agua potable y para el riego agrícola en la región. ',
     contenido3: '',
     titulo: 'INFILTRACIÒN',
-    imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
+    imagen: Medusa5 
   }
   const informacion5 = {
     contenido1: '',
     contenido2: 'En muchas partes de nuestro país hay acuíferos gracias a ellos nuestras ciudades y comunidades pueden abastecerse de agua.',
     contenido3: '',
     titulo: 'INFILTRACIÒN',
-    imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
+    imagen: Medusa6 
   }
   return (
 

@@ -7,6 +7,13 @@ import Slide5 from '../slides/Slide5';
 import Slide4 from '../slides/Slide4';
 import Slide3 from '../slides/Slide3';
 
+import Medusa1 from "../../assets/images/medusas/1.png"
+import Medusa2 from "../../assets/images/medusas/2.png"
+import Medusa3 from "../../assets/images/medusas/3.png"
+import Medusa4 from "../../assets/images/medusas/4.png"
+import Medusa5 from "../../assets/images/medusas/5.png"
+import Medusa6 from "../../assets/images/medusas/5.png"
+
 const Transpiracion = () => {
   const images = [
     "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
@@ -17,21 +24,21 @@ const Transpiracion = () => {
     contenido2: 'El quinto paso de este ciclo es la TRANSPIRACIÓN por la cual las plantas absorben agua del suelo a través de sus raíces',
     contenido3: 'la liberan al aire a través de pequeños poros en sus hojas, en un proceso llamado transpiración. ',
     titulo: 'TRANSPIRACIÒN',
-    imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
+    imagen: Medusa1 
   }
   const informacion2 = {
     contenido1: 'Gracias a este proceso, aproximadamente el 10% del agua absorbida por las raíces de las plantas ',
     contenido2: 'se libera a la atmósfera a través de la transpiración.',
     contenido3: 'La combinación de este proceso mas la evaporación de las fuentes de agua se conoce como evapotranspiración.',
     titulo: 'TRANSPIRACIÒN',
-    imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
+    imagen: Medusa4 
   }
   const informacion3 = {
     contenido1: '¡Los arboles son seres vivos maravillosos! ',
     contenido2: 'Un árbol puede liberar hasta 100 galones de agua en un día a través de la transpiración',
     contenido3: 'lo cual hace que el ciclo del agua se repita y comencemos de nuevo con la EVAPORACION',
     titulo: 'TRANSPIRACIÒN',
-    imagen: 'https://i0.wp.com/www.lucaedu.com/wp-content/uploads/2022/11/el-ciclo-del-agua.jpg?fit=1200%2C750&ssl=1'
+    imagen: Medusa3
   }
 
   return (
