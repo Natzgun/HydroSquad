@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 const Slide1 = ({ data }) => {
 
   return (
-    <div className='sm:h-screen p-16 grid grid-cols-2 grid-rows-4 gap-6 '>
+    <div className='sm:h-screen p-16 sm:grid grid-cols-2 grid-rows-4 gap-6 '>
       <motion.div whileHover={{ scale: 1.1 }} className=' text-white text-center text-4xl py-4 rounded-lg'>
         <div className="flex items-center justify-center h-full">
           <h1 className="font-bold">
@@ -28,7 +28,7 @@ const Slide1 = ({ data }) => {
 
       <motion.div whileHover={{ scale: 1.1 }} className=' row-span-2 text-white text-center text-5xl py-4 rounded-lg '>
         <div className="flex items-center justify-center h-full">
-         <img src={data.imagen} className="w-[50%]" alt="" /> 
+          <img src={data.imagen} className="w-[50%]" alt="" />
         </div>
       </motion.div>
     </div>
