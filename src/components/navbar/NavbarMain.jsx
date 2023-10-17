@@ -71,7 +71,7 @@ const NavbarMain = () => {
         }
       >
         <ul>
-          <h1 className="text-2xl font-bold mb-5">MidoTravel</h1>
+          <h1 className="text-2xl font-bold mb-5">HydroSquad</h1>
           <li className="mb-6 hover:text-blue-400 hover:underline duration-200">
             <NavLink to="/">Home</NavLink>
           </li>
