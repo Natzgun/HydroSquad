@@ -79,10 +79,7 @@ const NavbarMain = () => {
             <NavLink to="/cycle-water">Ciclo</NavLink>
           </li>
           <li className="mb-6 hover:text-blue-400 hover:underline duration-200">
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li className="mb-6 hover:text-blue-400 hover:underline duration-200">
-            <NavLink to="/cycle-water">Ciclo</NavLink>
+            <NavLink to="/acerca-de-hydrosquad">Team</NavLink>
           </li>
         </ul>
 
