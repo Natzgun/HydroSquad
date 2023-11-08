@@ -6,7 +6,7 @@ const About = () => {
       <div className="h-[75%]">
         <div className="flex flex-col items-center justify-center h-full px-6">
           <h1 className="font-semibold text-5xl">
-            HydroSquad
+            HydroSquad Team
           </h1>
           <img src={HydroTeam} className="sm:w-[40%]" alt="" />
         </div>
